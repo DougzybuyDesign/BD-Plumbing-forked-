@@ -38,8 +38,8 @@ ul li {
   transform: rotateY(25deg);
 }
 .image-slider img {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 3rem;
   border: 2px solid silver;
   border-radius: 5px;
   margin-bottom: 5px;

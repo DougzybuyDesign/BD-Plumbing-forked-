@@ -1,0 +1,60 @@
+.commercial {
+  font-size: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcoral;
+  margin-bottom: 40px;
+}
+ul li {
+  display: inline;
+}
+.mechanical-engineer {
+  display: flex;
+  flex-direction: column;
+}
+.image_container {
+  position: relative;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.image_container :hover {
+  transform: rotateY(25deg);
+}
+.image-slider {
+  position: relative;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  border: 2px solid rgb(0, 68, 137);
+  background-color: #17224d;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  justify-content: space-evenly;
+}
+.image-slider :hover {
+  cursor: pointer;
+  transform: rotateY(25deg);
+}
+.image-slider img {
+  height: 200px;
+  width: 200px;
+  border: 2px solid silver;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.clients {
+  justify-content: center;
+  text-align: center;
+  height: 70px;
+  background-color: darkgray;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.clients h1 {
+  text-align: center;
+  margin-top: 10px;
+}

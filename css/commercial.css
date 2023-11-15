@@ -9,6 +9,31 @@
 ul li {
   display: inline;
 }
+
+.container-card {
+
+  display:flex;
+  height: 300px;;
+  background:darkblue;
+  justify-content:space-evenly ;
+}
+.container-card .card{
+border:3px solid silver;
+  width:200px;
+  height:250px;
+  margin-bottom:40px;
+}
+.card .card-img img   {
+width: 150px;
+height: 100px;
+}
+.card .card-content{
+  font-size: .75rem;
+  max-height: 150px; 
+}
+.card-content h4{
+color:silver;
+}
 .mechanical-engineer {
   display: flex;
   flex-direction: column;

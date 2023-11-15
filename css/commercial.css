@@ -14,6 +14,7 @@ ul li {
   flex-direction: column;
 }
 .image_container {
+  display:flex;
   position: relative;
   justify-content: center;
   flex-wrap: wrap;
@@ -39,7 +40,7 @@ ul li {
 }
 .image-slider img {
   height: 300px;
-  width: 3rem;
+  width:300px;
   border: 2px solid silver;
   border-radius: 5px;
   margin-bottom: 5px;

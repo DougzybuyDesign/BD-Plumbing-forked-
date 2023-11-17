@@ -239,15 +239,48 @@ body {
   text-align: center;
 }
 .reviews-certs-container{
+  display:flex;
+  justify-content: center;
   margin-top:20px;
-  height:350px;
+  width:90%%;
+  height:400px;
   border: 2px solid darkblue;
   -webkit-box-shadow: 0px 3px 0px 2px rgba(0,0,0,0.1), 0px 6px 0px 4px rgba(0,0,0,0.1), 0px 9px 0px 6px rgba(0,0,0,0.1), 0px 12px 0px 8px rgba(0,0,0,0.1), 0px 15px 0px 10px rgba(0,0,0,0.1), 0px 18px 0px 12px rgba(0,0,0,0.1), 0px 21px 0px 14px rgba(0,0,0,0.1), 0px 24px 0px 16px rgba(0,0,0,0.1), 0px 27px 0px 18px rgba(0,0,0,0.1), 0px 30px 0px 20px rgba(0,0,0,0.1), 5px 5px 15px 5px rgba(0,0,0,0); 
 box-shadow: 0px 3px 0px 2px rgba(0,0,0,0.1), 0px 6px 0px 4px rgba(0,0,0,0.1), 0px 9px 0px 6px rgba(0,0,0,0.1), 0px 12px 0px 8px rgba(0,0,0,0.1), 0px 15px 0px 10px rgba(0,0,0,0.1), 0px 18px 0px 12px rgba(0,0,0,0.1), 0px 21px 0px 14px rgba(0,0,0,0.1), 0px 24px 0px 16px rgba(0,0,0,0.1), 0px 27px 0px 18px rgba(0,0,0,0.1), 0px 30px 0px 20px rgba(0,0,0,0.1), 5px 5px 15px 5px rgba(0,0,0,0);
 }
 .reviews-certs-container .title h2 {
+  margin-right:10px;
+  padding:2%;
+  margin-bottom:20px ;
   margin-top: 30px;
   color: red;
+  border:#17224d 1px solid;
+  border-radius:6px;
+  box-shadow:rgb(196, 181, 157) 0px 13.36px 8.896px, rgb(255, 255, 255) 0px -2px 1px;
+}
+.btn{
+  border:#17224d solid 1px;
+  background-color: #00468b;
+  border-radius: 6px;
+  cursor:pointer;
+  box-shadow:rgb(196, 181, 157) 0px 13.36px 8.896px, rgb(255, 255, 255) 0px -2px 1px;
+}
+.btn:hover{
+  background-color: #17224d;
+  color:white;
+
+}
+.container .container-plumb{
+  border-top:4px solid white;
+  padding:2%;
+  box-shadow:rgb(23, 34, 77) 0px 13.36px 8.896px, rgb(255, 255, 255) 0px -2px 1px;
+}
+.video-section {
+  border:2px solid silver;
+  display:flex;
+  flex-direction: column;
+  height:400px;
+  background-color: #ff4917;
 }
 /*** Header ***/
 .header-carousel .container,
@@ -365,9 +398,7 @@ box-shadow: 0px 3px 0px 2px rgba(0,0,0,0.1), 0px 6px 0px 4px rgba(0,0,0,0.1), 0p
 box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 
 }
-.btn{
-  border:#17224d solid 1px;
-}
+
 /*** Facts ***/
 .fact {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),

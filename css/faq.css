@@ -4,15 +4,25 @@
   flex-wrap: wrap;
 }
 h2 {
+  background-color: #00468b;
   flex-wrap: inherit;
+  justify-content: space-around;
+  color:silver;
+}
+.title  img{
+ max-width:30% ; width:auto;
+  border:#17224d 2px solid;
+  margin-bottom:10px ;
 }
 
 .question img {
   border: 2px solid #00468b;
   border-radius: 10px;
-  width: 100px;
-  height: 70px;
+  width:30%;
+  height:auto;
+  margin-left:10px ;
   margin-top: 20px;
+  margin-bottom:20px;
 }
 .accordion {
   flex-shrink: 1;
@@ -21,6 +31,7 @@ h2 {
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left:10px ;
   background: #17224d;
   border-radius: 10px;
 }

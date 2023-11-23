@@ -60,7 +60,9 @@
 }
 
 .card .details {
+  height:fit-content;
   width: 90%;
+  align-items: center;
   justify-content: center;
   text-align: center;
   font-size: 18px;
@@ -71,15 +73,25 @@
   box-sizing: border-box;
   padding: 20px;
 }
+.details table {
+  border: 2px solid darkblue;
+  margin-left:40px;
+  display:flex;
+  margin-bottom:10px;
+  height:25%;
+
+}
 .details table tr {
   display: flex;
   border: blue solid 1px;
 }
 .details table th {
+  color:white;
+background:blueviolet ;
   align-items: space-evenly;
 }
 .details table td {
-  text-align: center;
+  align-content:flex-end;
 }
 .comments {
   color: blue;

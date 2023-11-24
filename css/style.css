@@ -10,6 +10,9 @@ body {
 color:lightgray;
   margin-left: 15px;
 }
+.title h2{
+ animation: 3s infinite alternate slidein;
+  }
 p {
   color:silver ;
 }

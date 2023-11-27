@@ -18,7 +18,7 @@
   position: relative;
   margin: 10px;
   width: 300px;
-  height: 450px;
+  height: 400px;
   background: #fff;
   transform-style: preserve-3d;
   transform: perspective(2000px);
@@ -91,7 +91,8 @@ background:blueviolet ;
   align-items: space-evenly;
 }
 .details table td {
-  align-content:flex-end;
+  text-align: center;
+  padding-left:2% ;
 }
 .comments {
   color: blue;

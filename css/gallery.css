@@ -47,6 +47,17 @@ body {
   cursor: pointer;
   overflow-y: scroll;
 }
+h2{
+  margin-top:20px;
+  text-align:center;
+  font-size:medium;
+}
+h6{
+  border:#36768c 2px solid;
+  background:silver ;
+  border-radius:6px;
+  text-align: center;
+}
 .card.content {
   margin: auto;
   text-emphasis: overflowX;

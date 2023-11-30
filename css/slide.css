@@ -218,7 +218,7 @@ img {
   }
 }
 .scrollingX {
-  animation: scroll 45s linear infinite;
+  animation: scroll 65s linear infinite;
 }
 .marquee-wrapper:hover .scrollingX {
   animation-play-state: paused;
@@ -231,4 +231,6 @@ img {
     transform: translateX(calc(-100% - 1rem));
   }
 }
-
+.short-description p{
+  color:silver;
+}

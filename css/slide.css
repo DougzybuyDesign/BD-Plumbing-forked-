@@ -5,10 +5,10 @@ body {
   font-family: Verdana, sans-serif;
 }
 section {
-  background:linear-gradient(to right,#717171, #2c5364, #0f2027);
+  background: linear-gradient(to right, #717171, #2c5364, #0f2027);
   border: 2px solid silver;
   width: 100%;
-  height:400px;
+  height: 400px;
   justify-content: center;
   align-items: center;
 }
@@ -28,16 +28,16 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  object-fit:cover;
+  object-fit: cover;
   display: flex;
   flex-direction: column;
   align-content: center;
   height: 300px;
-  background-color:#0f2027;
+  background-color: #0f2027;
   max-width: 1200px;
   position: relative;
   margin: 10px;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 /* Caption text */
@@ -157,13 +157,13 @@ img {
   transform: translateY(-50px) scale(1.2);
 }
 .three {
-  height:auto;
+  height: auto;
   justify-content: center;
   align-items: center;
-  background:linear-gradient(to right,red, #2c5364, #0f2027); ;
+  background: linear-gradient(to right, red, #2c5364, #0f2027);
 }
-.slider .center .title{
-  margin-top:20px;
+.slider .center .title {
+  margin-top: 20px;
 }
 .marquee-wrapper {
   position: relative;
@@ -205,7 +205,12 @@ img {
   text-transform: capitalize;
   margin-block: 1rem;
 }
-.marquee-wrapper .marquee-content .card-testimonial article article.short-description p {
+.marquee-wrapper
+  .marquee-content
+  .card-testimonial
+  article
+  article.short-description
+  p {
   font-family: var(--ff-heading);
   font-size: 14px;
   font-weight: 300;
@@ -231,6 +236,6 @@ img {
     transform: translateX(calc(-100% - 1rem));
   }
 }
-.short-description p{
-  color:silver;
+.short-description p {
+  color: silver;
 }

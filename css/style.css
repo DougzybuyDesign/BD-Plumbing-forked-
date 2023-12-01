@@ -13,6 +13,14 @@ margin-left: 15px;
 .title h2{
  animation: 3s infinite alternate slidein;
   }
+  h6{
+    border:#36768c 3px solid;
+    background:silver ;
+    border-radius:6px;
+    text-align: center;
+    box-shadow:rgb(66, 69, 89) 0px 25px 45px;
+    margin-bottom: 30px;
+  }
 p {
   color:#17224d ;
 }
@@ -163,7 +171,7 @@ small{
 
 /*** Navbar ***/
 .top-bar {
-  height: 95px;
+  height: 110px;
   padding: 0 4rem;
 }
 
@@ -658,7 +666,7 @@ section {
 .bootstrap-datetimepicker-widget table td.today::before {
   border-bottom-color: var(--primary);
 }
-*/
+
 
 /*** Team ***/
 

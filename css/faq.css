@@ -6,14 +6,16 @@
 h2 {
   background-color: #00468b;
   flex-wrap: inherit;
-  justify-content: space-around;
+  justify-content:center;
   color:silver;
 }
-.title  img{
- max-width:30% ; width:auto;
+/*img{
+  display: flex;
+  align-items: center;
+  max-width:30% ;
   border:#17224d 2px solid;
   margin-bottom:10px ;
-}
+}*/
 
 .question img {
   border: 2px solid #00468b;
